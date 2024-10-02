@@ -1,0 +1,53 @@
+/* src/components/ProfileSection.css */
+
+.profile-section {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    max-width: 400px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 2px solid #ff385c; /* Airbnb's signature color */
+  }
+  
+  .profile-header h2 {
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .profile-email {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .profile-bio {
+    margin-top: 1rem;
+    text-align: left;
+  }
+  
+  .profile-bio h3 {
+    color: #ff385c; /* Airbnb's signature color */
+    margin-bottom: 0.5rem;
+  }
+  
+  .profile-bio p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  

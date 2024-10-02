@@ -1,0 +1,46 @@
+/* src/components/CategoryTabs.css */
+.category-tabs {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    background-color: white;
+    margin-top: 1rem;
+    border-radius: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow-x: auto;
+    scrollbar-width: thin; /* Custom scroll bar for Firefox */
+    scrollbar-color: #ddd transparent; /* Custom colors for Firefox */
+  }
+  
+  .category-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s;
+    padding: 0.5rem;
+  }
+  
+  .category-tab:hover {
+    color: #ff385c; /* Airbnb's signature pinkish-red color */
+  }
+  
+  .category-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  .category-tab p {
+    font-size: 0.8rem;
+    color: #333;
+  }
+  
+  .category-tabs::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .category-tabs::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 4px;
+  }
+  
